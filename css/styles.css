@@ -1,0 +1,104 @@
+body {
+    max-width: 1280px;
+    padding-left: 13.3%;
+    padding-right: 13.3%;
+    padding-top: 5%;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+header {
+    margin-bottom: 7.8%;
+    width: 480px;
+    margin: 0 auto;
+}
+
+.who_we_are {
+    font-size: 12px;
+    color: rgb(137, 143, 153);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 5px;
+  }
+
+  .Hello_Namaste {
+    font-size: 48px;
+    color: rgb(14, 200, 203);
+    text-transform: uppercase;
+    margin: 6% auto;
+    text-align: center;
+  }
+  
+ .We_do_not {
+    font-size: 18px;
+    font-family: "PTSans";
+    color: rgb(153, 153, 153);
+    text-transform: uppercase;
+    line-height: 1.667;
+    text-align: center;
+    margin: 4% auto;
+    padding: 5px;
+  }
+
+ nav {
+      min-height: 420px;
+      display: inline-flex;
+      
+      margin: 7% auto;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+  }
+
+  a {
+    width: 250px;
+    display: grid;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(236, 236, 236);
+    padding: 5% 4%;
+    text-decoration: none;
+    box-sizing: border-box;
+    background-color: #f7f7f7;
+}
+
+a>div:nth-child(1) {
+    margin: 0 auto;
+    height: 105.94px;
+}
+
+a>div:nth-child(2) {
+    font-size: 21px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(27, 27, 27);
+    min-height: 60px;
+    
+}
+
+a>div:nth-child(3) {
+    font-size: 14px;
+    font-family: "PTSans";
+    color: rgb(119, 119, 119);
+    line-height: 1.571;
+    text-align: center;
+    margin: 0 auto;
+}
+
+a:hover {
+    background-color: #0ec8cb;
+    transition: all .3s linear;
+}
+
+a:hover div {
+    color: white;
+    transition: inherit;
+}
+a:hover>div>object {
+    transition: inherit;
+    filter: invert(97%) sepia(68%) saturate(13%) hue-rotate(228deg) brightness(103%) contrast(104%);
+}
+  
